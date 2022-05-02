@@ -14,4 +14,6 @@ node golang_engine.js https://nasa.gov proxy.txt 1200 20 GET 64
 
 Change the 2captcha key on golang_engine
 
-Method coded by thai friend, released because we got hacked
+Method coded by Ch2k1t3 friend for StresserUS, released because we got hacked
+
+Dont bully the code, the method was under development
