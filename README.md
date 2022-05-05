@@ -8,6 +8,8 @@ sudo apt -y install nodejs
 
 npm install puppeteer-extra puppeteer-extra-plugin-recaptcha puppeteer-extra-plugin-stealth
 
+apt install chromium-browser -y
+
 chmod 777 optls
 
 node golang_engine.js https://nasa.gov proxy.txt 1200 20 GET 64
